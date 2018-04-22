@@ -1,0 +1,31 @@
+2018-04-22T15:33:54.856-0700	INFO	instance/beat.go:492	Home path: [c:\Dexter\Practice\gobeat\src\lsbeat] Config path: [c:\Dexter\Practice\gobeat\src\lsbeat] Data path: [c:\Dexter\Practice\gobeat\src\lsbeat\data] Logs path: [c:\Dexter\Practice\gobeat\src\lsbeat\logs]
+2018-04-22T15:33:54.860-0700	INFO	instance/beat.go:499	Beat UUID: 29064770-2f37-454e-87f0-5b5fd490815d
+2018-04-22T15:33:54.860-0700	INFO	[beat]	instance/beat.go:716	Beat info	{"system_info": {"beat": {"path": {"config": "c:\\Dexter\\Practice\\gobeat\\src\\lsbeat", "data": "c:\\Dexter\\Practice\\gobeat\\src\\lsbeat\\data", "home": "c:\\Dexter\\Practice\\gobeat\\src\\lsbeat", "logs": "c:\\Dexter\\Practice\\gobeat\\src\\lsbeat\\logs"}, "type": "lsbeat", "uuid": "29064770-2f37-454e-87f0-5b5fd490815d"}}}
+2018-04-22T15:33:54.861-0700	INFO	[beat]	instance/beat.go:725	Build info	{"system_info": {"build": {"commit": "unknown", "libbeat": "7.0.0-alpha1", "time": "1754-08-30T22:43:41.128Z", "version": "7.0.0-alpha1"}}}
+2018-04-22T15:33:54.861-0700	INFO	[beat]	instance/beat.go:728	Go runtime info	{"system_info": {"go": {"os":"windows","arch":"amd64","max_procs":8,"version":"go1.10.1"}}}
+2018-04-22T15:33:54.892-0700	INFO	instance/beat.go:225	Setup Beat: lsbeat; Version: 7.0.0-alpha1
+2018-04-22T15:33:54.892-0700	INFO	elasticsearch/client.go:145	Elasticsearch url: http://localhost:9200
+2018-04-22T15:33:54.893-0700	INFO	pipeline/module.go:76	Beat name: VimalKumarPC
+2018-04-22T15:33:55.719-0700	INFO	instance/beat.go:315	lsbeat start running.
+2018-04-22T15:33:56.383-0700	INFO	beater/lsbeat.go:38	lsbeat is running! Hit CTRL-C to stop it.
+2018-04-22T15:33:55.719-0700	INFO	[monitoring]	log/log.go:97	Starting metrics logging every 30s
+2018-04-22T15:35:05.591-0700	ERROR	instance/metrics.go:60	Error while getting memory usage: error retrieving process stats: cannot find matching process for pid=12204
+2018-04-22T15:35:05.591-0700	ERROR	instance/metrics.go:95	Error retrieving CPU percentages: error retrieving process stats: cannot find matching process for pid=12204
+2018-04-22T15:35:05.592-0700	INFO	[monitoring]	log/log.go:124	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"info":{"ephemeral_id":"215871a7-078d-4bec-8dd6-b27743921616","uptime":{"ms":73322}},"memstats":{"gc_next":4194304,"memory_alloc":1784024,"memory_total":3381560}},"libbeat":{"config":{"module":{"running":0}},"output":{"type":"elasticsearch"},"pipeline":{"clients":1,"events":{"active":8,"published":8,"total":8}}},"system":{"cpu":{"cores":8}}}}}
+2018-04-22T15:35:05.593-0700	ERROR	instance/metrics.go:60	Error while getting memory usage: error retrieving process stats: cannot find matching process for pid=12204
+2018-04-22T15:35:05.593-0700	ERROR	instance/metrics.go:95	Error retrieving CPU percentages: error retrieving process stats: cannot find matching process for pid=12204
+2018-04-22T15:35:05.593-0700	INFO	[monitoring]	log/log.go:124	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"info":{"ephemeral_id":"215871a7-078d-4bec-8dd6-b27743921616","uptime":{"ms":73323}},"memstats":{"gc_next":4194304,"memory_alloc":2009248,"memory_total":3606784}},"libbeat":{"config":{"module":{"running":0}},"pipeline":{"clients":1,"events":{"active":19,"published":11,"total":11}}}}}}
+2018-04-22T15:35:06.618-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:07.313-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:07.962-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:07.964-0700	INFO	elasticsearch/client.go:690	Connected to Elasticsearch version 6.2.2
+2018-04-22T15:35:07.966-0700	INFO	template/load.go:73	Template already exists and will not be overwritten.
+2018-04-22T15:35:10.172-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:10.912-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:11.548-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:12.280-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:12.975-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:14.092-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:14.906-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:15.672-0700	INFO	beater/lsbeat.go:51	Event sent
+2018-04-22T15:35:16.924-0700	INFO	beater/lsbeat.go:51	Event sent
